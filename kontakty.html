@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>kontakty</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <div class="form-kontakty">
+                <form action="https://formspree.io/f/mkgngeak"
+                method="POST">
+                    <label for="fname">Imię</label>
+                    <input type="text" id="fname" name="imie" placeholder="Twoje imie">
+                    
+                    <label for="lname">Nazwisko</label>
+                    <input type="text" id="lname" name="Nazwisko" placeholder="Twoje nazwisko">
+                    
+                    <label for="kraj">Kraj</label>
+                    <select id="kraj" name="kraj">
+                    <option value="australia">Australia</option>
+                    <option value="kanada">Kanada</option>
+                    <option value="usa">USA</option>
+                    </select>
+                    
+                    <label for="w3review">write questions or feedback</label>
+                    <textarea id="textarea">some text...</textarea>
+                    
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </main>
+    </body>
+</html>
